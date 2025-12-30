@@ -28,4 +28,8 @@ public class ResourceRepository {
                 .findFirst()
                 .orElse(null);
     }
+
+    public void save(Resource resource) {
+        database.add(resource);
+    }
 }

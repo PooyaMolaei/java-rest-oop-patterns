@@ -17,4 +17,8 @@ public class ResourceService {
     public <T extends Resource> double calculateFee(T resource, int days) {
         return resource.calculateLateFee(days);
     }
+
+    public void addResource(Resource resource) {
+        repository.save(resource);
+    }
 }
