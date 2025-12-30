@@ -1,4 +1,4 @@
-package com.Library.management.demo.model;
+package com.Library.management.model;
 
 public class Movie extends Resource{
     private String director;

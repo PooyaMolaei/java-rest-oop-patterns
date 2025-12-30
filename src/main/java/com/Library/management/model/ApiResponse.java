@@ -1,4 +1,4 @@
-package com.Library.management.demo.model;
+package com.Library.management.model;
 
 public class ApiResponse<T> {
     private int statusCode;

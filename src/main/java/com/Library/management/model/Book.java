@@ -1,4 +1,4 @@
-package com.Library.management.demo.model;
+package com.Library.management.model;
 
 public class Book extends Resource{
     private String auther;
